@@ -1,4 +1,5 @@
 const os = require("os");
+const escape_path_with_spaces = require("./index");
 
 const some_paths = {
     "Linux_or_Mac_OS_X": {
@@ -17,5 +18,5 @@ const whichTest = (os.platform() !== "win32") ? "Linux_or_Mac_OS_X" : "Windows";
 test.each(
     Object.entries(some_paths[whichTest])
 )('%s should give %s', (path, expect_result) => {
-    expect(path).toBe(expect_result);
+    expect(escape_path_with_spaces(path)).toBe(expect_result);
 });
