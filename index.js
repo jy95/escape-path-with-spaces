@@ -8,7 +8,7 @@ const version = os.release();
 // https://docs.microsoft.com/en-us/windows/release-information/
 const windows_version_regex = /(\d+\.\d+)\.(\d+)/;
 const should_not_escape = (major_release = "", os_build = "") =>
-    major_release.test(/1\d+\.\d+/) && Number(os_build) >= 17134.1184;
+    /1\d+\.\d+/.test(major_release) && Number(os_build) >= 17134.1184;
 
 module.exports = function (given_path) {
     return (is_posix_os)

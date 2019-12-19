@@ -4,7 +4,7 @@
   "description": "Escape if needed spaces contained in a string file path",
   "main": "index.js",
   "scripts": {
-    "test": "jest"
+    "test": "npx jest"
   },
   "keywords": [
     "escape",
