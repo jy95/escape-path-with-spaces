@@ -1,0 +1,26 @@
+{
+  "name": "escape-path-with-spaces",
+  "version": "1.0.0",
+  "description": "Escape if needed spaces contained in a string file path",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "keywords": [
+    "escape",
+    "path with space",
+    "path with spaces",
+    "escape spaces",
+    "escape space"
+  ],
+  "author": "jy95",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jy95/escape-path-with-spaces"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "jest": "^24.9.0",
+    "@types/jest": "^24.0.24"
+  }
+}
