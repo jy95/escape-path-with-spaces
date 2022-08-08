@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "Escape if needed spaces contained in a string file path",
   "main": "index.js",
+  "types": "./index.d.ts",
   "scripts": {
     "test": "npx jest"
   },
